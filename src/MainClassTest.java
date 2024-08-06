@@ -24,4 +24,7 @@ public class MainClassTest extends MainClass
             System.out.println("Good Answer!");
     }
 
+    @Test
+    public void toCommit
+
 }
