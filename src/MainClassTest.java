@@ -14,4 +14,14 @@ public class MainClassTest extends MainClass
 
     }
 
+    @Test
+    public void testGetClassNumber()
+    {
+        int a = getClassNumber();
+        if (a < 45)
+            Assert.fail ("getClassNumber вернула значение меньше 45");
+        else
+            System.out.println("Good Answer!");
+    }
+
 }
