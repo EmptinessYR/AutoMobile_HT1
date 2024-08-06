@@ -25,6 +25,14 @@ public class MainClassTest extends MainClass
     }
 
     @Test
-    public void toCommit
+    public void testGetClassString()
+    {
+        String s = getClassString();
+        if (s.contains("Hello") || s.contains("hello")) {
+            System.out.println("Строка содержит 'Hello' или 'hello'");
+        } else {
+            Assert.fail ("Строка не содержит 'Hello' или 'hello'");
+        }
+    }
 
 }
